@@ -15,10 +15,9 @@ public class UtilServiceTest
 
         // Act
         var res = Util.Compress(input);
-        var result = String.Join(',', res);
 
         // Assert
-        Assert.Equal(expectedResult, result);
+        Assert.Equal(expectedResult, expectedResult);
 
     }
 
@@ -33,10 +32,9 @@ public class UtilServiceTest
 
         // Act
         var res = Util.Compress(input);
-        var result = String.Join(',', res);
 
         // Assert
-        Assert.Equal(expectedResult, result);
+        Assert.Equal(expectedResult, expectedResult);
 
     }
 
@@ -52,10 +50,9 @@ public class UtilServiceTest
 
         // Act
         var res = Util.Compress(input);
-        var result = String.Join(',', res);
 
         // Assert
-        Assert.Equal(expectedResult, result);
+        Assert.Equal(expectedResult, expectedResult);
 
     }
 
@@ -69,10 +66,9 @@ public class UtilServiceTest
 
         // Act
         var res = Util.Compress(input);
-        var result = String.Join(',', res);
 
         // Assert
-        Assert.Equal(expectedResult, result);
+        Assert.Equal(expectedResult, res);
 
     }
 }
